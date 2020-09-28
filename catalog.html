@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a href="#" class="page-header__logo">
+      <img src="https://via.placeholder.com/150x100" alt="Логотип интернет-магазина Девайс"
+        class="page-header__logo-image">
+    </a>
+    <nav class="user-nav">
+      <ul class="user-nav__list">
+        <li class="user-nav__item">
+          <a href="#">Поиск по сайту</a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#">Войти</a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#">Сравнить</a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#">Корзина</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="#">
+            Каталог товаров
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">
+            Доставка
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">
+            Гарантия
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="catalog-page">
+    <h1 class="catalog-page__title">
+      Моноподы для селфи
+    </h1>
+    <ul class="catalog-page__breadcrumbs breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a href="catalog.html">Каталог товаров</a>
+      </li>
+      <li class="breadcrumbs__item">
+        Моноподы для селфи
+      </li>
+    </ul>
+    <div class="catalog">
+      <div class="catalog__filter-header">
+        <h2>Фильтр</h2>
+        <!-- Здесь будет форма фильтра -->
+      </div>
+      <div class="catalog__sorting">
+        <h2>Сортировка:</h2>
+        <ul class="catalog__sorting-links sorting-links__list">
+          <li class="sorting-links__items">
+            <a href="#">
+              По цене
+            </a>
+          </li>
+          <li class="sorting-links__items">
+            <a href="#">
+              По типу
+            </a>
+          </li>
+          <li class="sorting-links__items">
+            <a href="#">
+              По популярности
+            </a>
+          </li>
+        </ul>
+        <ul class="catalog__sorting-button sorting-button__list">
+          <li class="sorting-button__item">
+            <a href="#" class="sorting-button__arrow-up">
+              "по возрастанию"
+            </a>
+          </li>
+          <li class="sorting-button__item">
+            <a href="#" class="sorting-button__arrow-down">
+              "по убыванию"
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog__content">
+        <section class="catalog__products">
+          <h2 class="visually-hidden">Список товаров</h2>
+          <div class="products">
+            <ul class="products__list">
+              <li class="products__item">
+                <div class="products__image">
+                  <img src="https://via.placeholder.com/150x100" alt="Фото товара">
+                </div>
+                <div class="products__content">
+                  <h3 class="products__name">Любительская селфи-палка</h3>
+                  <p class="products__price">500 руб.</p>
+                </div>
+                <div class="products__links">
+                  <button class="products__card-button">В корзину</button>
+                  <button class="products__compare-button">Добавить к сравнению</button>
+                </div>
+              </li>
+              <li class="products__item">
+                <div class="products__image">
+                  <img src="https://via.placeholder.com/150x100" alt="Фото товара">
+                </div>
+                <div class="products__content">
+                  <h3 class="products__name">Профессиональная
+                    селфи-палка </h3>
+                  <p class="products__price">1 500 руб.</p>
+                </div>
+                <div class="products__links">
+                  <button class="products__card-button">В корзину</button>
+                  <button class="products__compare-button">Добавить к сравнению</button>
+                </div>
+              </li>
+              <li class="products__item">
+                <div class="products__image">
+                  <img src="https://via.placeholder.com/150x100" alt="Фото товара">
+                </div>
+                <div class="products__content">
+                  <h3 class="products__name">Непотопляемая селфи-палка</h3>
+                  <p class="products__price">2 500 руб.</p>
+                </div>
+                <div class="products__links">
+                  <button class="products__card-button">В корзину</button>
+                  <button class="products__compare-button">Добавить к сравнению</button>
+                </div>
+              </li>
+              <li class="products__item">
+                <div class="products__image">
+                  <img src="https://via.placeholder.com/150x100" alt="Фото товара">
+                </div>
+                <div class="products__content">
+                  <h3 class="products__name">Селфи-палка «Следуй за мной»</h3>
+                  <p class="products__price">4 900 руб.</p>
+                </div>
+                <div class="products__links">
+                  <button class="products__card-button">В корзину</button>
+                  <button class="products__compare-button">Добавить к сравнению</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="catalog__navigation pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a href="#" class="catalog__navigation-button">назад</a>
+              </li>
+              <li class="pagination__item pages">
+                <ul class="pages__list">
+                  <li class="pages__item">
+                    <a class="pages__number">1</a>
+                  </li>
+                  <li class="pages__item">
+                    <a href="#" class="pages__number">2</a>
+                  </li>
+                  <li class="pages__item">
+                    <a href="#" class="pages__number">3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="catalog__navigation-button">вперед</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="main-footer__wrapper-top">
+        <div class="main-footer__logo">
+          <img src="https://via.placeholder.com/150x100" alt="" class="">
+        </div>
+        <div class="main-footer__links">
+          <ul class="main-footer__list">
+            <li class="main-footer__item">
+              <a href="#">
+                Войти
+              </a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">
+                Сравнить
+              </a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">
+                Корзина
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-footer__wrapper-middle">
+        <div class="main-footer__text">
+          <p>г. Москва, ул. Строителей, 15
+          </p>
+        </div>
+        <div class="main-footer__nav footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a href="#">Доставка</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#">Гарантия</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__text">
+          <p>Тел.: +7 (495) 495-95-95</p>
+        </div>
+      </div>
+      <div class="main-footer__wrapper-bottom">
+        <div class="main-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <img src="https://via.placeholder.com/150x100" alt="facebook">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <img src="https://via.placeholder.com/150x100" alt="instagram">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <img src="https://via.placeholder.com/150x100" alt="twitter">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__copyright copyright">
+          <a href="#" class="copyright__link">
+            <img src="https://via.placeholder.com/150x100" alt="htmlacademy">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
